@@ -10,11 +10,8 @@
 		027EAA0B1FFF8D6200343A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027EAA0A1FFF8D6200343A07 /* AppDelegate.swift */; };
 		027EAA0D1FFF8D6200343A07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027EAA0C1FFF8D6200343A07 /* ViewController.swift */; };
 		027EAA101FFF8D6200343A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027EAA0E1FFF8D6200343A07 /* Main.storyboard */; };
-		027EAA131FFF8D6200343A07 /* AutoResizingCollectionView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 027EAA111FFF8D6200343A07 /* AutoResizingCollectionView.xcdatamodeld */; };
 		027EAA151FFF8D6200343A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027EAA141FFF8D6200343A07 /* Assets.xcassets */; };
 		027EAA181FFF8D6200343A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027EAA161FFF8D6200343A07 /* LaunchScreen.storyboard */; };
-		027EAA231FFF8D6200343A07 /* AutoResizingCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027EAA221FFF8D6200343A07 /* AutoResizingCollectionViewTests.swift */; };
-		027EAA2E1FFF8D6200343A07 /* AutoResizingCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027EAA2D1FFF8D6200343A07 /* AutoResizingCollectionViewUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +36,11 @@
 		027EAA0A1FFF8D6200343A07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		027EAA0C1FFF8D6200343A07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		027EAA0F1FFF8D6200343A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		027EAA121FFF8D6200343A07 /* AutoResizingCollectionView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutoResizingCollectionView.xcdatamodel; sourceTree = "<group>"; };
 		027EAA141FFF8D6200343A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		027EAA171FFF8D6200343A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		027EAA191FFF8D6200343A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		027EAA1E1FFF8D6200343A07 /* AutoResizingCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoResizingCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		027EAA221FFF8D6200343A07 /* AutoResizingCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoResizingCollectionViewTests.swift; sourceTree = "<group>"; };
-		027EAA241FFF8D6200343A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		027EAA291FFF8D6200343A07 /* AutoResizingCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoResizingCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		027EAA2D1FFF8D6200343A07 /* AutoResizingCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoResizingCollectionViewUITests.swift; sourceTree = "<group>"; };
-		027EAA2F1FFF8D6200343A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				027EAA091FFF8D6200343A07 /* AutoResizingCollectionView */,
-				027EAA211FFF8D6200343A07 /* AutoResizingCollectionViewTests */,
-				027EAA2C1FFF8D6200343A07 /* AutoResizingCollectionViewUITests */,
 				027EAA081FFF8D6200343A07 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,27 +95,8 @@
 				027EAA141FFF8D6200343A07 /* Assets.xcassets */,
 				027EAA161FFF8D6200343A07 /* LaunchScreen.storyboard */,
 				027EAA191FFF8D6200343A07 /* Info.plist */,
-				027EAA111FFF8D6200343A07 /* AutoResizingCollectionView.xcdatamodeld */,
 			);
 			path = AutoResizingCollectionView;
-			sourceTree = "<group>";
-		};
-		027EAA211FFF8D6200343A07 /* AutoResizingCollectionViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				027EAA221FFF8D6200343A07 /* AutoResizingCollectionViewTests.swift */,
-				027EAA241FFF8D6200343A07 /* Info.plist */,
-			);
-			path = AutoResizingCollectionViewTests;
-			sourceTree = "<group>";
-		};
-		027EAA2C1FFF8D6200343A07 /* AutoResizingCollectionViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				027EAA2D1FFF8D6200343A07 /* AutoResizingCollectionViewUITests.swift */,
-				027EAA2F1FFF8D6200343A07 /* Info.plist */,
-			);
-			path = AutoResizingCollectionViewUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,20 +162,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Andrea Toso";
 				TargetAttributes = {
 					027EAA061FFF8D6200343A07 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					027EAA1D1FFF8D6200343A07 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 027EAA061FFF8D6200343A07;
 					};
 					027EAA281FFF8D6200343A07 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 027EAA061FFF8D6200343A07;
 					};
@@ -264,7 +238,6 @@
 			files = (
 				027EAA0D1FFF8D6200343A07 /* ViewController.swift in Sources */,
 				027EAA0B1FFF8D6200343A07 /* AppDelegate.swift in Sources */,
-				027EAA131FFF8D6200343A07 /* AutoResizingCollectionView.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				027EAA231FFF8D6200343A07 /* AutoResizingCollectionViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				027EAA2E1FFF8D6200343A07 /* AutoResizingCollectionViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +304,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -340,6 +312,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -390,6 +363,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -397,6 +371,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -436,7 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andreatoso.AutoResizingCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -451,7 +426,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andreatoso.AutoResizingCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -467,7 +442,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andreatoso.AutoResizingCollectionViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoResizingCollectionView.app/AutoResizingCollectionView";
 			};
@@ -484,7 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andreatoso.AutoResizingCollectionViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoResizingCollectionView.app/AutoResizingCollectionView";
 			};
@@ -500,7 +475,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andreatoso.AutoResizingCollectionViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = AutoResizingCollectionView;
 			};
@@ -516,7 +491,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andreatoso.AutoResizingCollectionViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = AutoResizingCollectionView;
 			};
@@ -562,19 +537,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		027EAA111FFF8D6200343A07 /* AutoResizingCollectionView.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				027EAA121FFF8D6200343A07 /* AutoResizingCollectionView.xcdatamodel */,
-			);
-			currentVersion = 027EAA121FFF8D6200343A07 /* AutoResizingCollectionView.xcdatamodel */;
-			path = AutoResizingCollectionView.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 027EA9FF1FFF8D6200343A07 /* Project object */;
 }
