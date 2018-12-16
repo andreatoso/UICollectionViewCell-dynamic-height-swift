@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UICollectionViewController {
     
+    let data = ["Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", "Lorem ipsum dolor."]
+    
     var layout: UICollectionViewFlowLayout = {
         let layout = UICollectionViewFlowLayout()
         let width = UIScreen.main.bounds.size.width
@@ -25,24 +27,12 @@ class ViewController: UICollectionViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return 3
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellId", for: indexPath) as! MyCell
-        
-        if indexPath.item == 0 {
-            cell.label.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        }
-        
-        if indexPath.item == 1 {
-            cell.label.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        }
-        
-        if indexPath.item == 2 {
-            cell.label.text = "Lorem ipsum dolor."
-        }
-        
+        cell.label.text = data[indexPath.item]
         return cell
     }
     
@@ -94,7 +84,9 @@ class MyCell: UICollectionViewCell {
         customView.heightAnchor.constraint(equalToConstant: 100).isActive = true
         customView.widthAnchor.constraint(equalToConstant: 100).isActive = true
         
-        contentView.bottomAnchor.constraint(equalTo: customView.bottomAnchor, constant: 10).isActive = true
+        if let lastSubview = contentView.subviews.last {
+            contentView.bottomAnchor.constraint(equalTo: lastSubview.bottomAnchor, constant: 10).isActive = true
+        }
     }
     
     let label: UILabel = {
